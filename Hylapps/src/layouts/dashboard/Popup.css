@@ -1,0 +1,129 @@
+/* Fence Popup Container */
+.popup-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    padding: 15px;
+    /* background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+    color: #333;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+/* .popup-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+} */
+
+/* Header Section */
+.popup-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #1bb4cc;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Title Section */
+.popup-title {
+    font-size: 18px;
+    margin: 0;
+    color: #1b56cc;
+    text-align: left;
+}
+
+.popup-imo {
+    font-size: 14px;
+    color: #2e2c2c;
+    margin-left: 5px;
+}
+
+/* Details Section */
+.popup-details {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.popup-detail {
+    margin-bottom: 8px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.popup-label {
+    font-weight: 500;
+    color: #666;
+    margin-right: 10px;
+}
+
+.popup-value {
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+}
+.popup-value.time {
+    margin-left: 4px;
+}
+/* Footer Section */
+.popup-footer {
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Link Style */
+.view-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.view-more-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Status Badge */
+.popup-status {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    /* color: #fff; */
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.popup-status.active {
+    background-color: #28a745; /* Green */
+}
+
+.popup-status.warning {
+    background-color: #ffc107; /* Yellow */
+}
+
+.popup-status.error {
+    background-color: #dc3545; /* Red */
+}
+
+/* Button Style */
+.popup-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-button:hover {
+    background-color: #0056b3;
+}
