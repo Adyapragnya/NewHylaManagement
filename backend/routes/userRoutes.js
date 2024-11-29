@@ -14,7 +14,7 @@ const secretKey = '12345';
 require('dotenv').config();
 const LoginCounter = require('../models/LoginCounter');
 
-const internalURL = process.env.REACT_APP_API_BASE_URL_FOR_INTERNAL ;
+
 
 // Function to decrypt data (adjusted for your current encryption scheme)
 const decryptData = (encryptedText) => {
@@ -56,8 +56,6 @@ const sendLoginEmail = async (adminEmail, password) => {
 Email: ${adminEmail}
 Temporary Password: ${password}
     
-URL Link to GreenHyla: ${internalURL}
-
 Thank You,
 HYLA Admin`,
       };
